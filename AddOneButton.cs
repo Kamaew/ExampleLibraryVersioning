@@ -15,7 +15,7 @@ namespace ExampleLibraryVersioning
         {
             subscriptions = new CompositeDisposable
             {
-               PluginContext.Integration.AddButton("Тестовая кнопка",DownButton)
+               PluginContext.Operations.AddButtonToPluginsMenu("Тестовая кнопка",x => DownButton(x.vm,x.printer))
             };
         }
 

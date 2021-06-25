@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../Binaries/iiko/Manifest.xsd">
+  <FileName>ExampleLibraryVersioning.dll</FileName>
+  <TypeName>ExampleLibraryVersioning</TypeName>
+  <ApiVersion>V7</ApiVersion>
+  <LicenseModuleId>21016318</LicenseModuleId>
+  <IsSingleInstance>false</IsSingleInstance>
+  <RestartOnCrash>true</RestartOnCrash>
+</Manifest>
