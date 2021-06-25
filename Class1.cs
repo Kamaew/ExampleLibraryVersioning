@@ -15,7 +15,7 @@ namespace ExampleLibraryVersioning
     public class Class1 : IFrontPlugin
     {
         private readonly Stack<IDisposable> subscriptions = new Stack<IDisposable>();
-        Class1()
+        public Class1()
         {
             subscriptions.Push(new AddOneButton());
             subscriptions.Push(PluginContext.Notifications.SubscribeOnBeforeOrderBill(OnNavigating));
